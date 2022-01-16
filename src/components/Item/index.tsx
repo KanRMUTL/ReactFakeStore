@@ -9,9 +9,9 @@ type Props = {
 
 const Item = ({ item, handleAddtoCart }: Props) => (
   <Wrapper>
-    <img src={item.image} alt={item.titile} />
+    <img src={item.image} alt={item.title} />
     <div>
-      <h3>{item.titile}</h3>
+      <h3>{item.title}</h3>
       <p>{item.description}</p>
       <h3>${item.price}</h3>
     </div>
